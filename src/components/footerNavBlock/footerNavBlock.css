@@ -1,0 +1,22 @@
+.footer__nav-block{
+	min-width: 150px;
+}
+.footer__nav-block h6{
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 36px;
+	font-size: 14px;
+}
+.footer__nav-block ul{
+	display: flex;
+	flex-direction: column;
+	gap: 26px;
+}
+.footer__nav-block ul li{
+	color: #fff;
+	text-align-last: left;
+	font-size: 12px;
+}
+.footer__nav-block ul li a{
+	
+}

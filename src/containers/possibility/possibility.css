@@ -1,0 +1,48 @@
+.possibility__inner{
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.possibility__image{
+	flex: 1;
+}
+.possibility__image img{
+	width: 100%;
+}
+.possibility__content{
+	flex: 1;
+	padding-top: 15%;
+}
+
+.possibility__heading {
+
+}
+.possibility__heading h2 {
+	font-size: 34px;
+	line-height: 1.2;
+	font-weight: 800;
+	max-width: 500px;
+	margin-bottom: 2rem;
+}
+.possibility__heading p {
+	color: #71e5ff;
+	font-weight: 500;
+	margin-bottom: 1rem;
+}
+.possibility__content-text{
+	margin-bottom: 2rem;
+	max-width: 480px;
+	line-height: 1.8;
+}
+.possibility__bottom-text{
+	color: var(--color-subtext);
+	font-weight: 500;
+}
+
+@media(max-width:850px){
+	.possibility__inner{
+		flex-direction: column-reverse;
+	}
+}

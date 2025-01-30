@@ -1,0 +1,39 @@
+
+.wgpt3__wrapper{
+	padding: 3rem;
+	background: #052D56;
+}
+.wgpt3__inner{
+	display: flex;
+	flex-direction: column;
+	gap: 90px;
+}
+.wgpt3__heading{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 1rem ;
+}
+.wgpt3__heading h2{
+	font-size: 34px;
+	line-height: 1.2;
+	font-weight: 800;
+	max-width: 500px;
+}
+.wgpt3__heading p{
+	color: #FF8A71;
+	font-weight: 500;
+}
+.wgpt3__features-row{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 2rem;
+}
+
+@media(max-width: 950px){
+	.wgpt3__features-row{
+		flex-direction: column;
+	}
+}

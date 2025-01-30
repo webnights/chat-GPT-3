@@ -1,0 +1,44 @@
+.features {
+	background: radial-gradient(
+		circle at 0% 45%,
+		rgba(0, 40, 83, 1) 0%,
+		rgba(4, 12, 24, 1) 18%
+	);
+}
+.feature__inner {
+	display: flex;
+	align-items: start;
+	gap: 2rem;
+	justify-content: space-between;
+}
+.feature__heading {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 1rem;
+	flex: 1;
+}
+.feature__heading h2 {
+	font-size: 34px;
+	line-height: 1.2;
+	font-weight: 800;
+	max-width: 500px;
+}
+.feature__heading p {
+	color: #ff8a71;
+	font-weight: 500;
+}
+.feature__cards {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	flex: 1;
+}
+
+@media (max-width: 950px) {
+	.feature__inner {
+		flex-direction: column;
+		gap: 3rem;
+	}
+}
